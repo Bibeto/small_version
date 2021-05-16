@@ -17,8 +17,8 @@ This project is a shell to build UI application with Tkinter
   
  # Architecture 
  
- Home_frame ----> select_database       ----> select_barcode_update ----> enter_placement_frame ----> enter_quantity_frame
+Home_frame ----> select_database ----> select_barcode_update ----> enter_placement_frame ----> enter_quantity_frame
  
-               ----> select_database  ----> select_barcode_browse
+Home_frame ----> select_database  ----> select_barcode_browse
             
-               ----> select_delete_database  ----> add_dataBase_frame
+Home_frame ----> select_delete_database  ----> add_dataBase_frame
